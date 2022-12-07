@@ -477,7 +477,7 @@ body {
 @media (max-width: 599.98px) {
   .main-block {
     background-position: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 
@@ -575,6 +575,7 @@ body {
 @media (max-width: 449.98px) {
   .body-info__filter {
     padding: 20px 0;
+    margin-bottom: 0;
   }
 }
 
@@ -842,6 +843,7 @@ body {
 
 .popular-slide {
   overflow: hidden;
+  margin-right: 10px;
 }
 
 .popular-slide__image {
@@ -1149,7 +1151,7 @@ body {
     bottom: 100px;
   }
 }
-@media (max-width: 655.98px) {
+@media (max-width: 767.98px) {
   .why__slaider .why__slider-buttons {
     display: none;
   }
@@ -1604,6 +1606,11 @@ body {
   line-height: 1.7;
   color: #d6d6d6;
   position: relative;
+}
+@media (max-width: 549.98px) {
+  .footer__link {
+    font-size: 22px;
+  }
 }
 .footer__link:before {
   content: "";
