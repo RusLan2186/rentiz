@@ -1040,6 +1040,8 @@ body {
 .item-why {
   flex: 0 1 33.333%;
   transition: 0.3s all ease;
+  position: relative;
+  z-index: 10;
 }
 @media (max-width: 991.98px) {
   .item-why {
@@ -1086,10 +1088,16 @@ body {
   position: absolute;
   top: 264px;
   left: 0;
+  z-index: 1;
 }
 @media (max-width: 1599.98px) {
   .why__decor {
     opacity: 0.3;
+  }
+}
+@media (max-width: 991.98px) {
+  .why__decor {
+    display: none;
   }
 }
 
