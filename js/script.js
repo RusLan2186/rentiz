@@ -15,14 +15,18 @@ const swiper = new Swiper(' .popular-slider', {
       },
       660: {
          slidesPerView: 2,
+      },
+      320: {
+         slidesPerView: 1.2,
+
       }
-   }
+   },
 
 });
 
 
 const swiper2 = new Swiper('.why-slaider', {
-   spaceBetweem: 0,
+   spaceBetweem: 20,
    slidesPerView: 1,
    speed: 800,
 
@@ -31,6 +35,13 @@ const swiper2 = new Swiper('.why-slaider', {
    navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+   },
+   breakpoints: {
+
+      320: {
+         slidesPerView: 1.1,
+
+      }
    },
 
 
