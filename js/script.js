@@ -3,6 +3,8 @@ const swiper = new Swiper(' .popular-slider', {
    slidesPerView: 1,
    speed: 800,
 
+   Infinity: true,
+
    // Navigation arrows
    navigation: {
       nextEl: '.swiper-button-next',
@@ -71,6 +73,7 @@ const headerLinks = document.querySelectorAll('.header__menu')
 headerLinks.forEach((el) => {
    el.addEventListener('click', () => {
       $('.header__burger,.header__menu').toggleClass('active');
+      $('body').toggleClass('lock');
    })
 })
 
